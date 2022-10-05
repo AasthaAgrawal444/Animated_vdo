@@ -185,3 +185,7 @@
     background-size: cover;
     position: absolute;
 }
+
+#audio{
+    display: none;
+}
