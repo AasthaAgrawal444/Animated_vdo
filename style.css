@@ -2,35 +2,106 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: brown;
-}
-.container{
-    background-image: url(images/bgd.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-}
-.nobita{
-    background-image: url(images/nobita.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 240px;
-    height: 350px;
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-}
-.obstacle{
-    background-image: url(images/);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 290px;
-    height: 400px;
-    position: absolute;
-    bottom: 0;
-    overflow: hidden;
-    left: 900px;
 
+.sky{
+    height: 745px;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.trees{
+    background-image: url(images/trees.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 310px;
+    position: absolute;
+    bottom: 94px;
+    left: 20px;
+}
+.road{
+    height: 22vh;
+    width: 100%;
+    background-image: url(images/bg4.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+}
+.moon{
+    height: 400px;
+    width: 230px;
+    background-image: url(images/mooon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 210px;
+    left: 200px;
+     
+} 
+
+.cloud1{
+    height: 150px;
+    width: 300px;
+    background-image: url(images/clouds.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:200px;
+    left: 100px;   
+} 
+
+.cloud2{
+    height: 150px;
+    width: 300px;
+    background-image: url(images/clouds.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:200px;
+    left: 300px;   
+} 
+
+.cloud3{
+    height: 150px;
+    width: 300px;
+    background-image: url(images/clouds.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 500px;   
+} 
+.cloud4{
+    height: 150px;
+    width: 300px;
+    background-image: url(images/clouds.PNG);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    top: 170px;
+    left: 800px;   
+} 
+
+.cloud5{
+    height: 200px;
+    width: 400px;
+    background-image: url(images/clouds.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 950px;   
+} 
+
+
+.girl{
+    height: 300px;
+    width: 200px;
+    background-image: url(images/girll.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+     
 }
