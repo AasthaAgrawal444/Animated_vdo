@@ -6,6 +6,9 @@ let cloudeee = document.querySelector('.cloud4');
 let cloudeeee = document.querySelector('.cloud5');
 let sky1 = document.querySelector('.clouds5');
 let sky2 = document.querySelector('.clouds7');
+let rained = document.querySelector('.rain');
+
+
 
 var audio = new Audio('audio/audio.mp3');
     audio.play();
@@ -121,6 +124,22 @@ function clouds2(){
     },150);
 }
 clouds2();
+
+function rain(){
+    let start= 0;
+    let end = 800;
+    let speed = 3;
+    let sky = setInterval(function () {
+        start = start + speed;
+        if(start>=end) {
+            start=0;
+        }
+        rained.style.top = start + "px";
+    },150);
+}
+rain();
+
+
 
 
 
