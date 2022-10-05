@@ -18,7 +18,7 @@
     width: 600px;
     height: 310px;
     position: absolute;
-    bottom: 105px;
+    bottom: 90px;
     left: 20px;
 }
 .road{
@@ -29,6 +29,78 @@
     position: absolute;
     bottom: 0;
 }
+
+.clouds1{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-50px;
+    left: -50px;   
+}
+.clouds2{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-50px;
+    left: 280px;   
+}
+.clouds3{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-50px;
+    left: 650px;   
+}
+.clouds4{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-50px;
+    left: 900px;   
+}
+.clouds5{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/cd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -100px;
+    left: -30px;   
+}
+.clouds6{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/cd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-120px;
+    left: 500px;   
+}
+.clouds7{
+    height: 250px;
+    width: 600px;
+    background-image: url(images/cd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:-100px;
+    left: 800px;   
+}
+
 .moon{
     height: 400px;
     width: 230px;
@@ -53,7 +125,7 @@
 
 .cloud2{
     height: 150px;
-    width: 300px;
+    width: 400px;
     background-image: url(images/clouds.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,12 +136,12 @@
 
 .cloud3{
     height: 150px;
-    width: 300px;
+    width: 400px;
     background-image: url(images/clouds.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 50px;
+    top: 115px;
     left: 500px;   
 } 
 .cloud4{
@@ -104,4 +176,12 @@
     bottom: 5px;
     left: 100px;
      
+}
+
+.rain{
+    width: 100%;
+    height: 740px;
+    background-image: url(images/rainy.png);
+    background-size: cover;
+    position: absolute;
 }

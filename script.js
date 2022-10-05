@@ -5,6 +5,9 @@ let cloudee = document.querySelector('.cloud3');
 let cloudeee = document.querySelector('.cloud4');
 let cloudeeee = document.querySelector('.cloud5');
 
+var audio = new Audio('audio/audio.mp3');
+    audio.play();
+
 
 function walk(){
     let start=0;
@@ -40,10 +43,10 @@ function cloud2(){
     let speed = 3;
     let sky = setInterval(function () {
         start = start + speed;
-        if(start>=end) {
-            start = 300;
-        }
-        cloude.style.left = start + "px";
+        // if(cloude.style.left=='1px') {
+        //     start= start - speed;
+        // }
+        // cloude.style.left = start + "px";
     },250);
 }
 cloud2();
@@ -89,4 +92,5 @@ function cloud5(){
     },150);
 }
 cloud5();
+
 
