@@ -131,7 +131,7 @@ clouds2();
 
 function rain(){
     let start= 0;
-    let end = 60;
+    let end = 100;
     let speed = 3;
     let sky = setInterval(function () {
         start = start + speed;
