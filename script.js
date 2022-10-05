@@ -4,6 +4,8 @@ let cloude = document.querySelector('.cloud2');
 let cloudee = document.querySelector('.cloud3');
 let cloudeee = document.querySelector('.cloud4');
 let cloudeeee = document.querySelector('.cloud5');
+let sky1 = document.querySelector('.clouds5');
+let sky2 = document.querySelector('.clouds7');
 
 var audio = new Audio('audio/audio.mp3');
     audio.play();
@@ -38,15 +40,15 @@ function cloud1(){
 cloud1();
 
 function cloud2(){
-    let start=300;
-    let end = 350;
+    let start=200;
+    let end = 250;
     let speed = 3;
     let sky = setInterval(function () {
         start = start + speed;
-        // if(cloude.style.left=='1px') {
-        //     start= start - speed;
-        // }
-        // cloude.style.left = start + "px";
+        if(start>=end) {
+        start= 200;
+        }
+        cloude.style.left = start + "px";
     },250);
 }
 cloud2();
@@ -92,5 +94,34 @@ function cloud5(){
     },150);
 }
 cloud5();
+
+function clouds1(){
+    let start= -100;
+    let end = 20;
+    let speed = 3;
+    let sky = setInterval(function () {
+        start = start + speed;
+        if(start>=end) {
+            start=-100;
+        }
+        sky1.style.left = start + "px";
+    },150);
+}
+clouds1();
+function clouds2(){
+    let start= 830;
+    let end = 920;
+    let speed = 3;
+    let sky = setInterval(function () {
+        start = start + speed;
+        if(start>=end) {
+            start=830;
+        }
+        sky2.style.left = start + "px";
+    },150);
+}
+clouds2();
+
+
 
 
