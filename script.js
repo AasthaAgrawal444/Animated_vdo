@@ -9,9 +9,11 @@ let sky2 = document.querySelector('.clouds7');
 let rained = document.querySelector('.rain');
 
 
+let music = new Audio('audio/rain-02.mp3');
+music.play();
 
-var audio = new Audio('audio/audio.mp3');
-    audio.play();
+
+
 
 
 function walk(){
@@ -22,9 +24,11 @@ function walk(){
         start = start + speed;
         if(start>=end) {
             start = 0;
+            
         }
         char.style.left = start + "px";
     },150);
+    
 }
 walk();
 
@@ -127,7 +131,7 @@ clouds2();
 
 function rain(){
     let start= 0;
-    let end = 800;
+    let end = 60;
     let speed = 3;
     let sky = setInterval(function () {
         start = start + speed;
